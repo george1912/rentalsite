@@ -170,21 +170,8 @@ class Headerinner extends Component {
             });
         }, false);
 
-        this.handleResize(); // Call this method on mount to set initial state
-
-        window.addEventListener('resize', this.handleResize, false);
-        window.addEventListener('scroll', this.handleScroll, false);
-
         
     }
-
-
-    componentWillUnmount() {
-        window.removeEventListener('resize', this.handleResize);
-        window.removeEventListener('scroll', this.handleScroll);
-    }
-
-    
     getNextSibling = function (elem, selector) {
         // Get the next sibling element
         var sibling = elem.nextElementSibling;
