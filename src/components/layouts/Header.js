@@ -155,12 +155,12 @@ class Header extends Component {
     componentDidMount() {
         window.addEventListener('resize', () => {
             this.setState({
-                isMobile: window.innerWidth < 991
+                isMobile: window.innerWidth < 1024
             });
         }, false);
         window.addEventListener('load', () => {
             this.setState({
-                isMobile: window.innerWidth < 991
+                isMobile: window.innerWidth < 1024
             });
         }, false);
 
