@@ -153,6 +153,8 @@ class Header extends Component {
         });
     }
     componentDidMount() {
+
+        
         window.addEventListener('resize', () => {
             this.setState({
                 isMobile: window.innerWidth < 1024
@@ -170,7 +172,34 @@ class Header extends Component {
             });
         }, false);
 
+        this.handleResize(); // Call this method on mount to set initial state
+
+        window.addEventListener('resize', this.handleResize, false);
+        window.addEventListener('scroll', this.handleScroll, false);
+    
+
     }
+
+
+    handleResize = () => {
+        this.setState({
+            isMobile: window.innerWidth < 1024
+        });
+    }
+
+    handleScroll = () => {
+        this.setState({
+            isTop: window.scrollY > 110
+        });
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.handleResize);
+        window.removeEventListener('scroll', this.handleScroll);
+    }
+
+
+
     getNextSibling = function (elem, selector) {
         // Get the next sibling element
         var sibling = elem.nextElementSibling;
