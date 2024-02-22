@@ -34,6 +34,7 @@ const navigationmenu = [
         linkText: 'Apartments',
         child: true,
         submenu: [
+            
             {
                 id: 21,
                 link: '/apartment-details',
