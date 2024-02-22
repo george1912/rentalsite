@@ -206,9 +206,9 @@ class Header extends Component {
                                     <div className="cross-wrap"><span className="top" /><span className="bottom" /></div>
                                 </div>
                                 {/* Off canvas Menu  */}
-                                { <div className="toggle">
+                                 <div className="toggle">
                                     <Link to="#" id="offCanvasBtn" onClick={this.addClass}><i className="fal fa-bars" /></Link>
-                                </div> }
+                                </div> 
                                 {/* Mneu Items */}
                                 <div className="menu-items">
                                     <ul>
