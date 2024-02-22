@@ -265,9 +265,9 @@ class Header extends Component {
                                 </div>
                             </div>
                             {/* Navbar Toggler */}
-                            {/* <div className={classNames("navbar-toggler", { "active": this.state.togglemethod })} onClick={this.toggleClass}>
+                            { <div className={classNames("navbar-toggler", { "active": this.state.togglemethod })} onClick={this.toggleClass}>
                                 <span /><span /><span />
-                            </div> */}
+                            </div> }
                         </div>
                     </div>
                 </header>
