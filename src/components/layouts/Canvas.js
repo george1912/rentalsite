@@ -34,7 +34,7 @@ class Canvas extends Component {
                             </ul>
                         </li> */}
                         <li>
-                            <Link to="/trending">Apartment Details: Homestead</Link>
+                            <Link to="/apartment-details">Apartment Details: Homestead</Link>
                             {/* <ul className="submenu"> */}
                                 {/* <li><Link to="/apartment-details">Apartment Details</Link></li> */}
                                 {/* <li><Link to="/trending">Apartment List 2</Link></li> */}
