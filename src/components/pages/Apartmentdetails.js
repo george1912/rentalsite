@@ -10,10 +10,10 @@ class Apartmentdetails extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Nycondos | Apartment Details</title>
+                    <title>Urban Fox Rentals | Apartment Details</title>
                     <meta
                         name="description"
-                        content="#"
+                        content="Discover modern apartments in Brooklyn with Urban Fox Rentals. Explore our curated listings of stylish apartments and find your perfect home in Brooklyn today."
                     />
                 </MetaTags>
                 <Header/>
