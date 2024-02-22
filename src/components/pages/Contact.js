@@ -10,10 +10,10 @@ class Contact extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Urban Fox Rentals | Contact Us</title>
+                <title>Urban Fox Rentals | Home</title>
                     <meta
                         name="description"
-                        content="#"
+                        content="Discover modern apartments in Brooklyn with Urban Fox Rentals. See our curated listings of stylish apartments and find your perfect home in Brooklyn today."
                     />
                 </MetaTags>
                 <Header/>

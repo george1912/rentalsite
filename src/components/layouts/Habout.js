@@ -25,7 +25,7 @@ class Habout extends Component {
                                         <div className="icon">
                                             <i className="flaticon-suitcase" />
                                         </div>
-                                        <h4><Link to="#">Travel Ready</Link></h4>
+                                        <h4>Travel Ready</h4>
                                         <p>
                                         Fully furnished haven that simplifies your move. So you can focus on what matters&nbsp;most.
               </p>
@@ -44,7 +44,7 @@ class Habout extends Component {
                                         <div className="icon">
                                             <i className="flaticon-hotel" />
                                         </div>
-                                        <h4><Link to="#">Nouveau Luxury</Link></h4>
+                                        <h4>Nouveau Luxury</h4>
                                         <p>
                                         Experience bohemian elegance and modern efficiency in our thoughtfully designed apartments, where spaciousness meets comfort.
               </p>

@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import classNames from 'classnames'
-// import Canvas from './Canvas';
+import Canvas from './Canvas';
 
-import logo from '../../assets/img/header-logo-no-border.png';
+import logo from '../../assets/img/header-logo-transparent-bg-compressed.png';
 
 const navigationmenu = [
     {
@@ -100,11 +100,7 @@ const navigationmenu = [
             //     link: '/classification',
             //     linkText: 'Classification'
             // },
-            {
-                id: 43,
-                link: '/gallery',
-                linkText: 'Our Gallery'
-            },
+            
             // {
             //     id: 44,
             //     link: '/contact',
@@ -114,6 +110,12 @@ const navigationmenu = [
                 id: 45,
                 link: '/about',
                 linkText: 'About Us'
+            },
+
+            {
+                id: 43,
+                link: '/gallery',
+                linkText: 'Our Gallery'
             },
             // {
             //     id: 46,
@@ -204,9 +206,9 @@ class Header extends Component {
                                     <div className="cross-wrap"><span className="top" /><span className="bottom" /></div>
                                 </div>
                                 {/* Off canvas Menu  */}
-                                {/* <div className="toggle">
+                                { <div className="toggle">
                                     <Link to="#" id="offCanvasBtn" onClick={this.addClass}><i className="fal fa-bars" /></Link>
-                                </div> */}
+                                </div> }
                                 {/* Mneu Items */}
                                 <div className="menu-items">
                                     <ul>
@@ -269,13 +271,13 @@ class Header extends Component {
                         </div>
                     </div>
                 </header>
-                {/* <div className={classNames("offcanvas-wrapper", { "show-offcanvas": this.state.classmethod })}>
+                { <div className={classNames("offcanvas-wrapper", { "show-offcanvas": this.state.classmethod })}>
                     <div className={classNames("offcanvas-overly", { "show-overly": this.state.classmethod })} onClick={this.removeClass} />
                     <div className="offcanvas-widget">
                         <Link to="#" className="offcanvas-close" onClick={this.removeClass} ><i className="fal fa-times" /></Link>
                         <Canvas />
                     </div >
-                </div > */}
+                </div > }
             </Fragment>
         );
     }

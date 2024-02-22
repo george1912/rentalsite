@@ -4,7 +4,8 @@ import $ from 'jquery';
 // import 'magnific-popup';
 
 // import videobg from '../../../assets/img/text-block/04.jpg';
-import aboutimg from '../../../assets/img/text-block/05.jpg';
+// import aboutimg from '../../../assets/img/text-block/05.jpg';
+import myImage from '../../../assets/img/team/urban-fox-logo-transparent-bg.png'; // replace with the actual path to your image
 
 const featurespost = [
     { icon: 'flaticon-coffee', title: 'breakfast', animation: '.3s' },
@@ -30,24 +31,24 @@ class About extends Component {
                         <Link to="http://www.youtube.com/embed/watch?v=EEJFMdfraVY" className="popup-video"><i className="fas fa-play" /></Link>
                     </div> */}
                     <div className="section-title about-title text-center">
-                        <span className="title-tag">Who We <span>Are</span></span>
+                        <span className="title-tag">What We're <span>About</span></span>
                         <h2>Hello. My name is G.</h2>
                         <br />
                         <br />
-                        <h3>After years spent in "Marketing", I found myself yearning for something more tangible, something that touched lives directly. This restlessness led me down an unexpected path: nursing. The transition was profound, moving from a world of code and screens to one of human connection and care. It's in this journey that I discovered the value of creating spaces where people could feel safe, supported, and at home.
+                        <h3>From a dynamic career in marketing, I transitioned into the healthcare sector, driven by a desire to make a tangible impact on people’s lives. This profound shift inspired me to create Urban Fox Rentals—a place not just to stay, but to live and grow.
                         <br />
                         <br />
 
-                        In the heart of Park Slope, Brooklyn, I've poured this newfound understanding into creating a living space that reflects my journey and values. This isn't just an apartment; it's a testament to the belief that everyone deserves a place to call home, not just a house to live in. It's a sanctuary designed for those transitioning, whether they're embarking on new educational pursuits, professional projects, or simply seeking a haven in the city.
+                        Nestled in Park Slope, Brooklyn, our spaces mirror my personal evolution. They are sanctuaries for the soul, meticulously crafted for those in the midst of life’s transitions. Whether you’re pursuing educational goals, professional endeavors, or simply a serene spot to recharge, our fully furnished apartments offer solace from the city’s pace without the stress of moving.
                         <br />
                         <br />
 
 
-                        I've seen how important it is to have a retreat in the hustle of city life—a place that doesn't just serve as a roof over your head, but as a foundation from which you can grow, learn, and explore. This space in Park Slope is my attempt to blend those worlds, offering a fully furnished apartment that's ready to welcome you without the hassle of moving burdens. It's a place where you can focus on what matters most to you, whether that's your studies, your work, or simply your own well-being.
+                        Urban Fox Rentals is more than a housing option; it's a manifestation of my belief in the power of a nurturing environment. Here, you’ll find more than a place to rest—it's where you can cultivate your future, foster well-being, and thrive.
                         <br />
                         <br />
 
-                        This apartment in Park Slope is more than just a project; it's a reflection of my journey, beliefs, and the kind of world I want to help build—one where everyone has the opportunity to find their place and thrive.
+                        <img src={myImage} alt="Urban Fox Logo "/> {/* Add this line */}
                         </h3>
 
 

@@ -67,7 +67,7 @@ class Features extends Component {
                                 </div>
                                 <h3><Link to="#">Leasing Options</Link></h3>
                                 <p>
-                                Choose from extended stays of 6-8 months or opt for the flexibility of month-to-month arrangements, tailored to fit your stay.
+                                Flexible stays of 6-8 months with the flexibility of month-to-month arrangements, tailored to fit your stay.
           </p>
                                 <span className="count">05</span>
                             </div>
@@ -79,10 +79,10 @@ class Features extends Component {
                                 </div>
                                 <h3><Link to="#">Special Offers</Link></h3>
                                 <p>
-                                Enjoy a deposit waiver for students with a qualifying guarantor, simplifying your housing experience.
+                                Students Exclusive: $100 monthly discount for duration of stay and deposit waived with a qualifying guarantor.
           </p>
                                 <span className="count">06</span>
-                            </div>
+                            </div> 
                         </div>
                     </div>
                 </div>

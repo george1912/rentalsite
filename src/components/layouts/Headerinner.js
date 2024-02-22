@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import classNames from 'classnames'
 import Canvas from './Canvas';
 
-import logo from '../../assets/img/header-logo-no-border.png';
+import logo from '../../assets/img/header-logo-transparent-bg-compressed.png';
 
 const navigationmenu = [
     {
@@ -100,11 +100,7 @@ const navigationmenu = [
             //     link: '/classification',
             //     linkText: 'Classification'
             // },
-            {
-                id: 43,
-                link: '/gallery',
-                linkText: 'Our Gallery'
-            },
+            
             // {
             //     id: 44,
             //     link: '/contact',
@@ -114,6 +110,12 @@ const navigationmenu = [
                 id: 45,
                 link: '/about',
                 linkText: 'About Us'
+            },
+
+            {
+                id: 43,
+                link: '/gallery',
+                linkText: 'Our Gallery'
             },
             // {
             //     id: 46,

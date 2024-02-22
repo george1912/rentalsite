@@ -102,7 +102,7 @@ class Footer extends Component {
                                                 </div>
                                                 <div className="desc">
                                                     <h6 className="title">Phone Number</h6>
-                 347-443-9267
+                                                    <a href="tel:+13474439267">347-443-9267</a>
                 </div>
                                             </div>
                                             <div className="contact-box">
@@ -111,7 +111,7 @@ class Footer extends Component {
                                                 </div>
                                                 <div className="desc">
                                                     <h6 className="title">Email Address</h6>
-                                                    <Link to="mailto:info@urbanfoxrentals.com">info@urbanfoxrentals.com</Link>
+                                                    <a href="mailto:info@urbanfoxrentals.com">info@urbanfoxrentals.com</a>
                                                 </div>
                                             </div>
                                             <div className="contact-box">
