@@ -37,7 +37,14 @@ const navigationmenu = [
             {
                 id: 21,
                 link: '/apartment-details',
-                linkText: 'Homestead'
+                linkText: 'Details'
+            },
+
+
+            {
+                id: 21,
+                link: '/gallery',
+                linkText: 'Gallery'
             },
             // {
             //     id: 22,
@@ -112,11 +119,11 @@ const navigationmenu = [
                 linkText: 'About Us'
             },
 
-            {
-                id: 43,
-                link: '/gallery',
-                linkText: 'Our Gallery'
-            },
+            // {
+            //     id: 43,
+            //     link: '/gallery',
+            //     linkText: 'Our Gallery'
+            // },
             // {
             //     id: 46,
             //     link: '/broker',
@@ -278,7 +285,7 @@ class Headerinner extends Component {
                                     <div className="item">
                                         <i className="fal fa-phone" />
                                         <span>Phone Number</span>
-                                        <a href="tel:+3474439267"  style={{ fontFamily: "'Old Standard TT', serif" }} ><h5>(347)-443-9267</h5></a>
+                                        <a href="tel:+13474439267"  style={{ fontFamily: "'Old Standard TT', serif" }} ><h5>(347)-443-9267</h5></a>
                                         {/* <Link to="tel:+90898787709">
                                             <h5 className="title">+908 987 877 09</h5>
                                         </Link> */}

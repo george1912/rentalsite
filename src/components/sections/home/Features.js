@@ -29,7 +29,7 @@ class Features extends Component {
                                 <div className="icon">
                                     <i className="flaticon-clock" />
                                 </div>
-                                <h3><Link to="#">Quiet Hours</Link></h3>
+                                <h3>Quiet Hours</h3>
                                 <p>
                                 Enjoy serene quiet hours perfect for focus and productivity in a peaceful setting, ideal for those who cherish tranquility for work.
           </p>
@@ -41,7 +41,7 @@ class Features extends Component {
                                 <div className="icon">
                                     <i className="flaticon-location-pin" />
                                 </div>
-                                <h3><Link to="#">Prime Location</Link></h3>
+                                <h3>Prime Location</h3>
                                 <p>
                                 Nestled near shops, subway, and laundry, our location offers unmatched convenience and proximity to key services and transportation.
           </p>
@@ -53,9 +53,9 @@ class Features extends Component {
                                 <div className="icon">
                                     <i className="flaticon-hotel" />
                                 </div>
-                                <h3><Link to="#">Fully Furnished</Link></h3>
+                                <h3>Fully Furnished</h3>
                                 <p>
-                                Embrace digital payment solutions and enjoy waived lease requirements for students with qualified guarantors.
+                                Ready with everything you need for a comfortable stay. From kitchenware to linens, we've got you covered.
           </p>
                                 <span className="count">04</span>
                             </div>
@@ -65,7 +65,7 @@ class Features extends Component {
                                 <div className="icon">
                                     <i className="flaticon-credit-card" />
                                 </div>
-                                <h3><Link to="#">Leasing Options</Link></h3>
+                                <h3>Leasing Options</h3>
                                 <p>
                                 Flexible stays of 6-8 months with the flexibility of month-to-month arrangements, tailored to fit your stay.
           </p>
