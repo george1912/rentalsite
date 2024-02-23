@@ -278,7 +278,7 @@ class Headerinner extends Component {
                                     <div className="item">
                                         <i className="fal fa-phone" />
                                         <span>Phone Number</span>
-                                        <a href="tel:+3474439267"  style={{ fontFamily: "'Old Standard TT', serif" }} >(347)-443-9267</a>
+                                        <a href="tel:+3474439267"  style={{ fontFamily: "'Old Standard TT', serif" }} ><h5>(347)-443-9267</h5></a>
                                         {/* <Link to="tel:+90898787709">
                                             <h5 className="title">+908 987 877 09</h5>
                                         </Link> */}
@@ -286,9 +286,7 @@ class Headerinner extends Component {
                                     <div className="item">
                                         <i className="fal fa-envelope" />
                                         <span>Email Address</span>
-                                        <Link to="mailto:info@urbanfoxrentals.com">
-                                            <h5 className="title">info@urbanfoxrentals.com</h5>
-                                        </Link>
+                                        <a href="mailto:info@previewurbanfoxrentals.com"><h5>info@previewurbanfoxrentals.com</h5></a>
                                     </div>
                                 </div>
                             </div>

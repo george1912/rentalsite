@@ -34,7 +34,7 @@ class Video extends Component {
           </p>
           <Link to="#" onClick={(e) => {
     e.preventDefault();
-    window.location.href = 'mailto:info@urbanfoxrentals.com?subject=Interest%20in%20Listing';
+    window.location.href = 'mailto:info@previewurbanfoxrentals.com?subject=Interest%20in%20Listing';
 }} className="main-btn btn-filled mt-40">Book now</Link>
                             </div>
                         </div>
