@@ -47,7 +47,7 @@ class Habout extends Component {
                                         <h4>Cozy Retreat</h4>
                                         <p>
                                         {/* Fully furnished haven that simplifies your move. So you can focus on what matters&nbsp;most. */}
-                                        Perfectly located sanctuary offering effortless access to trains and shops, providing the perfect backdrop for life's unfolding journey."
+                                        Perfectly located sanctuary offering effortless access to trains and shops, providing the perfect backdrop for life's unfolding journey.
               </p>
                                     </div>
                                 </div>
