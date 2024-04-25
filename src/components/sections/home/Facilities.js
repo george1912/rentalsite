@@ -11,7 +11,7 @@ const apartmentspost = [
         img: img1, title: 'Modern Homestead',
         text: '3 Bedroom, 1 Bath, Queen Bed, Optional Furnishment',
         utilities: 'Utilities Included: Cooking Gas, Heat, Water',
-        price: '3200', period: 'Month'
+        price: '3300', period: 'Month'
     },
     {
         img: img2, title: 'Sleek Sanctuary',

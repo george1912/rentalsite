@@ -38,7 +38,7 @@ class Content extends Component {
                                         <h2>Spacious 3BR, 1BA</h2>
                                     </div>
                                     <div className="price">
-                                        $3200<span>/Month</span>
+                                        $3300<span>/Month</span>
                                     </div>
                                 </div>
                                 <div className="thumb">

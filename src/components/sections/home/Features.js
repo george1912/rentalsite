@@ -67,7 +67,7 @@ class Features extends Component {
                                 </div>
                                 <h3>Leasing Options</h3>
                                 <p>
-                                Flexible stays of 6-8 months with the flexibility of month-to-month arrangements, tailored to fit your stay.
+                                Flexible stays of 6-12 months with the flexibility of month-to-month arrangements, tailored to fit your stay.
           </p>
                                 <span className="count">05</span>
                             </div>
