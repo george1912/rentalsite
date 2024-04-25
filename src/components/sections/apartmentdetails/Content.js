@@ -38,36 +38,38 @@ class Content extends Component {
                                         <h2>Spacious 3BR, 1BA</h2>
                                     </div>
                                     <div className="price">
-                                        $3900<span>/Month</span>
+                                        $3200<span>/Month</span>
                                     </div>
                                 </div>
                                 <div className="thumb">
                                     <img src={mainimg} alt="" />
                                 </div>
                                 <p>
-                                Welcome to your next home in the heart of Park Slope, Brooklyn! This fully furnished 900 sq ft apartment offers a seamless move-in experience, perfect for those seeking comfort and convenience in one of New York City's most desirable neighborhoods. With a thoughtful layout featuring three bedrooms and a bathroom, this space is ideally suited for students, professionals, and anyone looking to immerse themselves in city life for 6-8 months, with the flexibility of transitioning to a month-to-month lease.
+                                Welcome to your next home in the heart of Park Slope, Brooklyn! This 900 sq ft apartment is your blank canvas, perfect for those seeking a personal touch in one of New York City's most desirable neighborhoods. The flexible layout features three bedrooms and a bathroom, making it an ideal choice for students, professionals, working couples and anyone eager to dive into city life.
 
                                 <br />
                                 <br />
 
-                                Fully Furnished: Enjoy a beautifully decorated space that includes two TVs (one in the living room and one in the bedroom), a cozy couch, coffee table, dining table with four chairs, an office desk and chair, and an extra futon that folds out into a bed. The bedroom is equipped with a comfortable bed, dresser, and a full-body mirror, ensuring you have everything you need from the moment you arrive.
+                                Optional Furnishing: Tailor your space to your taste with our furnishing package available for an additional monthly fee. This includes two TVs, a comfortable living setup with a couch and coffee table, a dining area, a work-ready office desk and chair, and a futon that doubles as extra sleeping space. Bedrooms can be equipped with beds, dressers, and full-body mirrors for your convenience.
                                 <br />
                                 <br />
-                                Kitchen Essentials: The kitchen is stocked with plates, glasses, cups, utensils, and more, making it easy to settle in without the hassle of bringing your own supplies.
+                                Kitchen Ready: Choose to have your kitchen pre-stocked with essentials such as plates, glasses, cups, and utensils, allowing you to settle in with ease.
                                 <br />
                                 <br />
-                                Comfort and Convenience: Two AC window units are available for your comfort, along with a set of bedding linens and pillows. The apartment features a skylight in both the bathroom and kitchen, filling the space with natural light.
+                                Comfort and Convenience: Opt for added ease with available AC window units, and enjoy a space bathed in natural light thanks to skylights in the bathroom and kitchen.
                                 <br />
                                 <br />
-                                Utilities Included: High-speed internet, water, and heating are included in the rent, ensuring a hassle-free living experience. (Electricity not included.)
+                                Utilities Included: Cooking gas, water, and heating.
                                 <br />
                                 <br />
-                                Don't miss out on the opportunity to call this exceptional Park Slope apartment your new home. Schedule a viewing today and start your next chapter in one of Brooklyn's most sought-after neighborhoods!
+                                Seize the opportunity to make this exceptional Park Slope apartment your own. Contact us to schedule a viewing today and begin your next adventure in one of Brooklyn's most sought-after neighborhoods!
+                                <br />
+                                <br />
 
 
           </p>
-                                <div className="room-fearures clearfix mt-60 mb-60">
-                                    <h3 className="subtitle">Amenities</h3>
+                                {/* <div className="room-fearures clearfix mt-60 mb-60">
+                                    <h3 className="subtitle">Feature Highlights Package</h3>
                                     <ul className="room-fearures-list">
                                         <li><i className="fal fa-bath" /> Air conditioner</li>
                                         <li><i className="fal fa-wifi" />High speed WiFi</li>
@@ -79,7 +81,7 @@ class Content extends Component {
                                         <li><i className="fal fa-shopping-cart" />Shopping Near</li>
                                         <li><i className="fal fa-clipboard" />Office</li>
                                     </ul>
-                                </div>
+                                </div> */}
                                
 
           
@@ -106,7 +108,7 @@ class Content extends Component {
                                     <h3 className="subtitle">Stay Guidlines</h3>
                                     <ul className="room-rules-list">
                                         <li>No smoking allowed.</li>
-                                        <li>Pets are not permitted.</li>                                        
+                                        <li>Small Pets are permitted.</li>                                        
 
                                     </ul>
                                 </div>

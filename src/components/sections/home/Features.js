@@ -53,9 +53,9 @@ class Features extends Component {
                                 <div className="icon">
                                     <i className="flaticon-hotel" />
                                 </div>
-                                <h3>Fully Furnished</h3>
+                                <h3>Optional Furnishment</h3>
                                 <p>
-                                Ready with everything you need for a comfortable stay. From kitchenware to linens, we've got you covered.
+                                If you choose the apartment, can be ready with everything you need for a comfortable stay. From kitchenware to linens, we've got you covered.
           </p>
                                 <span className="count">04</span>
                             </div>
@@ -79,7 +79,7 @@ class Features extends Component {
                                 </div>
                                 <h3><Link to="#">Special Offers</Link></h3>
                                 <p>
-                                Students Exclusive: $100 monthly discount for duration of stay and deposit waived with a qualifying guarantor.
+                                Move in without broker fees and make your start even sweeter. First time renters will receive a $50 Amazon gift card as a housewarming gift from us.
           </p>
                                 <span className="count">06</span>
                             </div> 

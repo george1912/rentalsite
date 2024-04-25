@@ -9,13 +9,13 @@ import img2 from '../../../assets/img/room-suite/sleek-stuido-apt-2.png';
 const apartmentspost = [
     {
         img: img1, title: 'Modern Homestead',
-        text: '3 Bedroom, 1 Bath, Queen Bed, Fully Furnished',
-        utilities: 'Utilities Included: Gas, Heat, Water, High-speed Internet',
-        price: '3900', period: 'Month'
+        text: '3 Bedroom, 1 Bath, Queen Bed, Optional Furnishment',
+        utilities: 'Utilities Included: Cooking Gas, Heat, Water',
+        price: '3200', period: 'Month'
     },
     {
         img: img2, title: 'Sleek Sanctuary',
-        text: 'Studio, Queen Bed, Fully Furnished',
+        text: 'Studio, Queen Bed, Optional Furnishment',
         utilities: 'Utilities Included: Gas, Heat, Water, High-speed Internet', // Leave empty or add utilities if applicable 
         price: 'TBA', period: 'Month'
     },

@@ -39,7 +39,7 @@ class About extends Component {
                         <br />
                         <br />
 
-                        Nestled in Park Slope, Brooklyn, our spaces mirror my personal evolution. They are sanctuaries for the soul, meticulously crafted for those in the midst of life’s transitions. Whether you’re pursuing educational goals, professional endeavors, or simply a serene spot to recharge, our fully furnished apartments offer solace from the city’s pace without the stress of moving.
+                        Nestled in Park Slope, Brooklyn, our spaces mirror my personal evolution. They are sanctuaries for the soul, meticulously crafted for those in the midst of life’s transitions. Whether you’re pursuing educational goals, professional endeavors, or simply a serene spot to recharge, our apartments offer solace from the city’s pace without the stress of moving.
                         <br />
                         <br />
 
