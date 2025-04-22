@@ -59,7 +59,7 @@ class Habout extends Component {
                                     <h2>Discover the Difference</h2>
                                 </div>
                                 <p>
-                                Welcome to a curated 900 sq ft apartment in the heart of Park Slope—fully furnished, beautifully lit, and crafted with intention. Every detail is considered, every convenience included. From modern amenities to flexible leasing, this is Brooklyn living without compromise.
+                                Welcome to a curated spacious apartment in the heart of Park Slope—fully furnished, beautifully lit, and crafted with intention. Every detail is considered, every convenience included. From modern amenities to flexible leasing, this is Brooklyn living without compromise.
           </p>
                                 <Link to="gallery" className="main-btn btn-filled mt-40"> Take A Look</Link>
                             </div>
