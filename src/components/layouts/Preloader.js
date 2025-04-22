@@ -7,13 +7,13 @@ class Preloader extends Component {
             fetchSuccess: false
         }
     }
+    
     componentDidMount() {
-        window.addEventListener('load', () => {
-            this.setState({
-                fetchSuccess: true
-            });
-        });
-    }
+        setTimeout(() => {
+          this.setState({ fetchSuccess: true });
+        }, 100); // or 300ms if you want it to animate
+      }
+
     render() {
         const classNamess = this.state.fetchSuccess ? 'd-none' : '';
         return (
