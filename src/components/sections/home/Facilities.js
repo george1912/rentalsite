@@ -9,7 +9,7 @@ const apartmentspost = [
     {
         img: img1, 
         title: 'Livewell Suite',
-        spaceDetails: ['1 Bedroom, 1 Bath, Fully Furnished', '900 Sq Ft'],
+        spaceDetails: ['1 Bedroom, 1 Bath, Fully Furnished'],
 
         furnishings: [
             'Queen Bed with Fresh Linens Provided',

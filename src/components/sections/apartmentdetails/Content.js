@@ -30,7 +30,7 @@ class Content extends Component {
                                     <img src={mainimg} alt="" />
                                 </div>
                                 <p style={{ color: '#3c4c5e' }}>
-                                Welcome to <strong>"The Livewell on 9th Street"</strong> your move-in-ready home in the heart of Park Slope. This light-filled, 900 sq ft apartment offers a rare combination of flexibility, comfort, and curated design — perfect for professionals, students, couples, or anyone looking for more than just a place to stay
+                                Welcome to <strong>"The Livewell on 9th Street"</strong> your move-in-ready home in the heart of Park Slope. This light-filled,apartment offers a rare combination of flexibility, comfort, and curated design — perfect for professionals, students, couples, or anyone looking for more than just a place to stay
                                 <br />
                                 <br />
                                 The layout includes three bedrooms and one bathroom, with the option to fully furnish your space with high-quality pieces — from smart TVs and dining essentials to work-from-home setups and cozy sleeping arrangements. Whether you're staying a few months or longer, this apartment is designed to support your routine, your comfort, and your lifestyle.
