@@ -2396,6 +2396,13 @@ header.sticky-header.sticky-active.header-two .header-info .item .title {
   max-height: 500px;
 }
 
+/* Mobile override */
+@media (max-width: 768px) {
+  .photo-container .instant-photo-aboutme-logo {
+    max-width: 50%;
+  }
+}
+
 
 
 .section-title.about-title p {
