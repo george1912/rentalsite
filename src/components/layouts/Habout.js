@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Masonry from 'react-masonry-component';
 
-import singlefeature from '../../assets/img/feature/office-1.jpg';
-import singlefeature1 from '../../assets/img/feature/kitchen-1.jpg';
+import singlefeature from '../../assets/img/feature/kitchen-feature-compressed.jpg';
+import singlefeature1 from '../../assets/img/feature/bedroom-feature-compressed.jpg';
 import bottomimg from '../../assets/img/bg/parkslope-landscape-4.png';
 
 class Habout extends Component {
@@ -25,9 +25,9 @@ class Habout extends Component {
                                         <div className="icon">
                                             <i className="flaticon-suitcase" />
                                         </div>
-                                        <h4>Nouveau Luxury</h4>
+                                        <h4>Effortless Luxury</h4>
                                         <p>
-                                        Experience bohemian elegance and modern efficiency in our thoughtfully designed apartments, where spaciousness meets comfort.
+                                        Where timeless design meets elevated living. Enjoy curated interiors, sleek finishes, and modern conveniences and amenities—in a space that's as practical as it is beautiful.
               </p>
                                     </div>
                                 </div>
@@ -44,10 +44,9 @@ class Habout extends Component {
                                         <div className="icon">
                                             <i className="flaticon-hotel" />
                                         </div>
-                                        <h4>Cozy Retreat</h4>
+                                        <h4>Everyday Sanctuary</h4>
                                         <p>
-                                        {/* Fully furnished haven that simplifies your move. So you can focus on what matters&nbsp;most. */}
-                                        Perfectly located sanctuary offering effortless access to trains and shops, providing the perfect backdrop for life's unfolding journey.
+                                        Designed for doers. Just steps from shops and transit, this peaceful space offers everything you need to recharge, reset, and get back to what matters.
               </p>
                                     </div>
                                 </div>
@@ -56,11 +55,11 @@ class Habout extends Component {
                         <div className="col-lg-6 col-md-8 col-sm-10 wow fadeInRight" data-wow-delay=".3s">
                             <div className="abour-text pl-50 pr-50">
                                 <div className="section-title mb-30">
-                                    <span className="title-tag">about us</span>
-                                    <h2>Discover Our Apartments.</h2>
+                                    <span className="title-tag">Step Inside</span>
+                                    <h2>Discover the Difference</h2>
                                 </div>
                                 <p>
-                                    Explore Park Slope living in our cozy, fully furnished 900 sq ft apartment, perfect for short or extended stays. Enjoy modern amenities, natural light, and a vibrant neighborhood close to all Brooklyn offers. Flexible leasing available.
+                                Welcome to a curated 900 sq ft apartment in the heart of Park Slope—fully furnished, beautifully lit, and crafted with intention. Every detail is considered, every convenience included. From modern amenities to flexible leasing, this is Brooklyn living without compromise.
           </p>
                                 <Link to="gallery" className="main-btn btn-filled mt-40"> Take A Look</Link>
                             </div>

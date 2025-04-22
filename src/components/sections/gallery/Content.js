@@ -3,14 +3,15 @@ import { Link } from 'react-router-dom';
 import $ from 'jquery';
 import 'magnific-popup';
 
-import img1 from '../../../assets/img/gallery/bedroom-01.jpg';
-import img2 from '../../../assets/img/gallery/kitchen-02.jpg';
-import img3 from '../../../assets/img/gallery/living-room-03.jpg';
-import img4 from '../../../assets/img/gallery/spare-bedroom-04.jpg';
-import img5 from '../../../assets/img/gallery/office-05.jpg';
-import img6 from '../../../assets/img/gallery/hallway-06.jpg';
-import img7 from '../../../assets/img/gallery/bathroom-07.jpg';
-import img8 from '../../../assets/img/gallery/bathroom-08.jpg';
+import img1 from '../../../assets/img/gallery/bedroom-01-9st.jpg';
+import img2 from '../../../assets/img/gallery/kitchen-02-9st.jpg';
+import img3 from '../../../assets/img/gallery/living-room-03-9st.jpg';
+import img4 from '../../../assets/img/gallery/laundry-04-9st.jpg';
+import img5 from '../../../assets/img/gallery/office-05-9st.jpg';
+import img6 from '../../../assets/img/gallery/dining-06-9st.jpg';
+import img7 from '../../../assets/img/gallery/bathroom-07-9st.jpg';
+import img8 from '../../../assets/img/gallery/bathroom-08-9st-p1.JPG';
+
 
 const gallerypost = [
     { img: img1, animation: '.3s' },
@@ -21,6 +22,7 @@ const gallerypost = [
     { img: img6, animation: '.8s' },
     { img: img7, animation: '.9s' },
     { img: img8, animation: '1.1s' },
+
 ];
 
 class Content extends Component {

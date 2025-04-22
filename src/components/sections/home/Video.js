@@ -23,19 +23,49 @@ class Video extends Component {
                             <div className="block-text text-center">
                                 <div className="section-title mb-20">
                                     {/* <span className="title-tag">intro video</span> */}
-                                    <h2>Meet With Us</h2>
+                                    <h2>Contact Us</h2>
                                 </div>
                                 <p>
-                                Like what you see?
+                                Looking for a place that feels like home?
                                 <br />
                                  Don't hesitate to send us an email or give us a call. 
                                  <br />
-                                Find your perfect Brooklyn Rental. We're ready to assist you in booking the perfect space.
+                                Find your perfect Brooklyn Rental.
           </p>
-          <Link to="#" onClick={(e) => {
+          {/* <Link to="#" onClick={(e) => {
     e.preventDefault();
     window.location.href = 'mailto:info@previewurbanfoxrentals.com?subject=Interest%20in%20Listing';
-}} className="main-btn btn-filled mt-40">Book now</Link>
+}} className="main-btn btn-filled mt-40">Email US</Link> */}
+
+<div className="button-stack" style={{ marginTop: '2rem' }}>
+  
+<Link
+  style={{
+    display: 'block',
+    margin: '0 auto 1rem auto',
+    maxWidth: '250px',
+    width: '100%',
+    textAlign: 'center',
+  }}
+  to="#"
+  onClick={(e) => {
+    e.preventDefault();
+    window.open(
+      'https://docs.google.com/forms/d/e/1FAIpQLScnF4s3pjfLJRTl925okHtP80kyLMLO1XnPdaiKkh7FyrhU_Q/viewform?usp=dialog',
+      '_blank',
+      'noopener,noreferrer'
+    );
+  }}
+  className="main-btn btn-filled"
+>
+  Request Info
+</Link>
+</div>
+
+
+
+
+
                             </div>
                         </div>
                         {/* <div className="col-lg-6 col-md-10 order-1 order-lg-2 wow fadeInRight" data-wow-delay=".3s">

@@ -9,7 +9,7 @@ class Breadcrumb extends Component {
             <section className="breadcrumb-area" style={{ backgroundImage: "url(" + breadcrumbbg + ")" }}>
                 <div className="container">
                     <div className="breadcrumb-text">
-                        <span>Timeless luxury</span>
+                        <span>Intentional Living</span>
                         <h2 className="page-title">{this.props.breadcrumb.pagename}</h2>
                         <ul className="breadcrumb-nav">
                         <li><Link to="/">Home</Link></li>

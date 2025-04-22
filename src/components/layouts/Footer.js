@@ -7,10 +7,10 @@ import logo from '../../assets/img/header-logo-no-border.png';
 
 class Footer extends Component {
     render() {
-        const Map = ReactMapboxGl({
-            accessToken:
-                'pk.eyJ1IjoiYWJlZHNoIiwiYSI6ImNrNnRyZ3d4aDAyMzkzZXBoc3RsYnM0aGwifQ.yhr3W_OOI6xXElmSY8cyPg'
-        });
+        // const Map = ReactMapboxGl({
+        //     accessToken:
+        //         'pk.eyJ1IjoiYWJlZHNoIiwiYSI6ImNrNnRyZ3d4aDAyMzkzZXBoc3RsYnM0aGwifQ.yhr3W_OOI6xXElmSY8cyPg'
+        // });
         return (
             <Fragment>
                 <Backtotop />
@@ -94,7 +94,7 @@ class Footer extends Component {
                                 <div className="col-lg-3 col-sm-6 order-2 order-lg-3">
                                     {/* Contact Widget */}
                                     <div className="widget contact-widget mb-50">
-                                        <h4 className="widget-title">Contact Us.</h4>
+                                        <h4 className="widget-title">Reach Out</h4>
                                         <div className="contact-lists">
                                             <div className="contact-box">
                                                 <div className="icon">
@@ -102,7 +102,7 @@ class Footer extends Component {
                                                 </div>
                                                 <div className="desc">
                                                     <h6 className="title">Phone Number</h6>
-                                                    <a href="tel:+13474439267"><h6>347-443-9267</h6></a>
+                                                    <a href="tel:+9294897158"><h6>929-489-7158</h6></a>
                 </div>
                                             </div>
                                             <div className="contact-box">
@@ -111,7 +111,7 @@ class Footer extends Component {
                                                 </div>
                                                 <div className="desc">
                                                     <h6 className="title">Email Address</h6>
-                                                    <a href="mailto:info@previewurbanfoxrentals.com"><h6>info@previewurbanfoxrentals.com</h6></a>
+                                                    <a href="mailto:info@urbanfoxrentals.com"><h6>info@urbanfoxrentals.com</h6></a>
                                                 </div>
                                             </div>
                                             <div className="contact-box">
@@ -134,7 +134,7 @@ class Footer extends Component {
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-5 order-2 order-md-1">
                                     {/* <p className="copyright-text copyright-two">Copyright By@<Link to="#">Example</Link> - 2020</p> */}
-                                    <p className="copyright-text copyright-two">Copyright By@GeeDesigns - 2024</p>
+                                    <p className="copyright-text copyright-two">&copy; 2025 BigLittleAdventures. <br/>All rights reserved.</p>
                                 </div>
                                 {/* <div className="col-lg-6 col-md-7 order-1 order-md-2">
                                     <div className="footer-menu text-center text-md-right">

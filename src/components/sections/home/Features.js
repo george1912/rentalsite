@@ -7,8 +7,8 @@ class Features extends Component {
             <section className="core-feature-section bg-white pt-115 pb-115">
                 <div className="container">
                     <div className="section-title text-center mb-50">
-                        <span className="title-tag"> facilities </span>
-                        <h2>Core Features</h2>
+                        <span className="title-tag"> Considered Details </span>
+                        <h2>What Sets Us Apart</h2>
                     </div>
                     {/* Featre Loop */}
                     <div className="row features-loop">
@@ -17,11 +17,11 @@ class Features extends Component {
                                 <div className="icon">
                                     <i className="flaticon-rating" />
                                 </div>
-                                <h3>Top-Rated Area</h3>
+                                <h3>Neighborhood Pick</h3>
                                 <p>
-                                Explore Park Slope: Where historic charm meets modern living in one of Brooklyn's most sought-after neighborhood.
+                                With historic homes, green space, and a neighborhood rhythm all its own, Park Slope brings its own quiet charm and community feel.
           </p>
-                                <span className="count">01</span>
+                                {/* <span className="count">01</span> */}
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-6 order-2">
@@ -29,11 +29,11 @@ class Features extends Component {
                                 <div className="icon">
                                     <i className="flaticon-clock" />
                                 </div>
-                                <h3>Quiet Hours</h3>
+                                <h3>Focus Mode</h3>
                                 <p>
-                                Enjoy serene quiet hours perfect for focus and productivity in a peaceful setting, ideal for those who cherish tranquility for work.
+                                A calm, capable space made for deep work. Supported by built-in quiet, smart layout, and features designed  — built for when your brain's on overdrive.
           </p>
-                                <span className="count">02</span>
+                                {/* <span className="count">02</span> */}
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-6 order-3 order-sm-4 order-lg-3">
@@ -41,11 +41,11 @@ class Features extends Component {
                                 <div className="icon">
                                     <i className="flaticon-location-pin" />
                                 </div>
-                                <h3>Prime Location</h3>
+                                <h3>Everyday Access</h3>
                                 <p>
-                                Nestled near shops, subway, and laundry, our location offers unmatched convenience and proximity to key services and transportation.
+                                Just off 4th Avenue-9th Street ßStation, this address puts you near Prospect Park, with groceries, errands, and hospitals all within easy reach.
           </p>
-                                <span className="count">03</span>
+                                {/* <span className="count">03</span> */}
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-6 order-4 order-sm-3 order-lg-4">
@@ -53,23 +53,24 @@ class Features extends Component {
                                 <div className="icon">
                                     <i className="flaticon-hotel" />
                                 </div>
-                                <h3>Optional Furnishment</h3>
+                                <h3>Move-In Ready</h3>
                                 <p>
-                                If you choose the apartment, can be ready with everything you need for a comfortable stay. From kitchenware to linens, we've got you covered.
+                                Other rentals stop at a couch and a bed. We outfit for life. From cookware to desk lamps, it's ready when you're ready.
           </p>
-                                <span className="count">04</span>
+                                {/* <span className="count">04</span> */}
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-6 order-5">
                             <div className="feature-box wow fadeInUp" data-wow-delay=".7s">
                                 <div className="icon">
-                                    <i className="flaticon-credit-card" />
+                                    <i className="flaticon-checklist" />
                                 </div>
                                 <h3>Leasing Options</h3>
                                 <p>
-                                Flexible stays of 6-12 months with the flexibility of month-to-month arrangements, tailored to fit your stay.
+                                No rigid leases—just flexible, month-to-month options that fit your life, whether you're staying a few months or settling in longer.
+                                
           </p>
-                                <span className="count">05</span>
+                                {/* <span className="count">05</span> */}
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-6 order-6">
@@ -77,11 +78,11 @@ class Features extends Component {
                                 <div className="icon">
                                     <i className="flaticon-discount" />
                                 </div>
-                                <h3><Link to="#">Special Offers</Link></h3>
+                                <h3><Link to="#">Resident Care</Link></h3>
                                 <p>
-                                Move in without broker fees and make your start even sweeter. First time renters will receive a $50 Amazon gift card as a housewarming gift from us.
+                                Support includes cleaning referrals, fast response times, and continuous care designed around real resident needs.
           </p>
-                                <span className="count">06</span>
+                                {/* <span className="count">06</span> */}
                             </div> 
                         </div>
                     </div>

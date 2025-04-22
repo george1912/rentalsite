@@ -25,7 +25,7 @@ class Canvas extends Component {
                 <div className="widget nav-widget">
                     <h5 className="widget-title">Our pages</h5>
                     <ul>
-                        <li><Link to="/about">About Us</Link></li>
+                        <li><Link to="/about">About</Link></li>
                         {/* <li><Link to="/classification">Classification</Link></li> */}
                         {/* <li>
                             <Link to="/places">Places Near By</Link>
@@ -34,7 +34,7 @@ class Canvas extends Component {
                             </ul>
                         </li> */}
                         <li>
-                            <Link to="/apartment-details">Apartment Details: Homestead</Link>
+                            <Link to="/apartment-details">Livewell Apartment</Link>
                             {/* <ul className="submenu"> */}
                                 {/* <li><Link to="/apartment-details">Apartment Details</Link></li> */}
                                 {/* <li><Link to="/trending">Apartment List 2</Link></li> */}
@@ -48,7 +48,7 @@ class Canvas extends Component {
                                 <li><Link to="/news-details">News Details</Link></li>
                             </ul>
                         </li> */}
-                        <li><Link to="/gallery">Our Gallery</Link></li>
+                        <li><Link to="/gallery">Gallery</Link></li>
                         {/* <li><Link to="/broker">Brokers</Link></li> */}
                         {/* <li><Link to="/contact">Contact Us</Link></li> */}
                     </ul>

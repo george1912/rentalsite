@@ -9,6 +9,7 @@ const Home = React.lazy(() => import("./components/pages/Home"));
 const Hometwo = React.lazy(() => import("./components/pages/Hometwo"));
 const Homethree = React.lazy(() => import("./components/pages/Homethree"));
 const About = React.lazy(() => import("./components/pages/About"));
+const Aboutme = React.lazy(() => import("./components/pages/Aboutme"));
 const Apartmentgrid = React.lazy(() => import("./components/pages/Apartmentgrid"));
 const Apartmentlist = React.lazy(() => import("./components/pages/Apartmentlist"));
 const Apartmentdetails = React.lazy(() => import("./components/pages/Apartmentdetails"));
@@ -32,6 +33,7 @@ function App() {
           <Route path="/hometwo" component={Hometwo} />
           <Route path="/homethree" component={Homethree} />
           <Route path="/about" component={About} />
+          <Route path="/aboutme" component={Aboutme} />
           <Route path="/apartment-grid" component={Apartmentgrid} />
           <Route path="/apartment-list" component={Apartmentlist} />
           <Route path="/apartment-details" component={Apartmentdetails} />

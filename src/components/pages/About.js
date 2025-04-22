@@ -13,11 +13,11 @@ class About extends Component {
                 <title>Urban Fox Rentals | Home</title>
                     <meta
                         name="description"
-                        content="Discover modern apartments in Brooklyn with Urban Fox Rentals. Learn more about our company and find your perfect home in Brooklyn today."
+                        content="Learn more about Urban Fox Rentals and our mission to provide quality furnished rentals."
                     />
                 </MetaTags>
                 <Header/>
-                <Breadcrumb breadcrumb={{pagename:'About Us'}} />
+                <Breadcrumb breadcrumb={{pagename:'Vision'}} />
                 <Content/>
                 <Footer/>
             </Fragment>

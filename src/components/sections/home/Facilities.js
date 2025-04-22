@@ -1,26 +1,36 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import img1 from '../../../assets/img/room-suite/homestead-apt-1.jpg';
-import img2 from '../../../assets/img/room-suite/sleek-stuido-apt-2.png';
-// import img3 from '../../../assets/img/room-suite/03.jpg';
-// import img4 from '../../../assets/img/room-suite/04.jpg';
+import img1 from '../../../assets/img/room-suite/livewell-apt-1.jpg';
+
+
 
 const apartmentspost = [
     {
-        img: img1, title: 'Modern Homestead',
-        text: '3 Bedroom, 1 Bath, Queen Bed, Optional Furnishment',
-        utilities: 'Utilities Included: Cooking Gas, Heat, Water',
-        price: '3300', period: 'Month'
+        img: img1, 
+        title: 'Livewell Suite',
+        spaceDetails: ['1 Bedroom, 1 Bath, Fully Furnished', '900 Sq Ft'],
+
+        furnishings: [
+            'Queen Bed with Fresh Linens Provided',
+            'Comfortable Premade Room Setups',
+            'Fully Outfitted Kitchen stocked with all the Essentials',
+        ],
+        amenities: [
+            'In-unit Washer & Dryer',
+            'Central Air Conditioning & Heating',
+            'Professional Cooking Range and Appliances',
+            'Secure Package Delivery Area',
+            'Private Entrance',
+        ],
+        utilities: [
+            'High-Speed Internet & Water Included',
+            'Usage-Based Electric & Gas',
+            'Complimentary VPN Service',
+        ],
+        price: '3900',
+        period: 'Flexible Monthly Lease',
     },
-    {
-        img: img2, title: 'Sleek Sanctuary',
-        text: 'Studio, Queen Bed, Optional Furnishment',
-        utilities: 'Utilities Included: Gas, Heat, Water, High-speed Internet', // Leave empty or add utilities if applicable 
-        price: 'TBA', period: 'Month'
-    },
-    // { img: img3, title: 'Garden Apartment', text: '1 Person, Queed Bed, 2 Windows', price: '345', period: 'Month' },
-    // { img: img4, title: 'Duplex Apartment', text: '1 Person, Queed Bed, 2 Windows', price: '345', period: 'Month' },
 ];
 
 class Facilities extends Component {
@@ -29,46 +39,114 @@ class Facilities extends Component {
             <section className="pt-115 pb-115 bg-white">
                 <div className="container">
                     <div className="section-title text-center mb-30">
-                        <span className="title-tag"> facilities </span>
-                        <h2>Apartments</h2>
+                        <span className="title-tag">Now Leasing</span>
+                        <h2>Current Offering</h2>
                     </div>
-                    {/* <div className="text-center mb-20">
-                        <Link to="/apartment-grid">View more
-                            <i className="fal fa-arrow-right ml-2" />
-                        </Link>
-                    </div> */}
-                    <div className="row">
-                        {apartmentspost.map((item, i) => (
-                            <div key={i} className="col-lg-6 col-md-6">
+                    
+                    <div className="row justify-content-center">
+                        {apartmentspost.length === 1 ? (
+                            <div className="col-lg-6 col-md-8">
                                 <div className="apartment-box">
                                     <div className="image-box">
-
-                                        {/* <Link to="/apartment-details" className="d-block">
-                                            <img src={item.img} alt="img" />
-                                        </Link> */}
-
-                                        {i === 0 ? (
-                                            // Only the first apartment image is clickable
-                                            <Link to={`/apartment-details/${item.id}`} className="d-block">
-                                                <img src={item.img} alt="img" />
-                                            </Link>
-                                        ) : (
-                                            // Non-clickable image for other apartments
-                                            <img src={item.img} alt="img" />
-                                        )}
+                                        <Link to={`/apartment-details/1`} className="d-block">
+                                            <img src={apartmentspost[0].img} alt="img" />
+                                            <div className="image-overlay">View Gallery</div>
+                                        </Link>
                                     </div>
                                     <div className="content-box-2">
                                         <h3 className="title">
-                                            {/* <Link to="/apartment-details">{item.title}</Link> */}
-                                            <span>{item.title}</span>
+                                            <span>{apartmentspost[0].title}</span>
                                         </h3>
-                                        <p>{item.text}</p>
-                                        <p className="utilities">{item.utilities}</p>
-                                        <span className="price">${item.price}/{item.period}</span>
+
+                                        <div className="bubble">
+                                        <div className="bubble-heading-wrapper">
+                                            <span className="bubble-heading subtitle">Space Specs</span>
+                                        </div>
+
+                                        <ul className="details">
+  {apartmentspost[0].spaceDetails.map((item, index) => (
+    <li key={index}>{item}</li>
+  ))}
+</ul>
+
+
+                                        </div>
+
+                                        
+                                        <div className="bubble">
+                                        <div className="bubble-heading-wrapper">
+                                            <span className="bubble-heading subtitle">Furnishings</span>
+                                        </div>
+                                        <ul className="details">
+  {apartmentspost[0].furnishings.map((item, index) => (
+    <li key={index}>{item}</li>
+  ))}
+</ul>
+                                        </div>
+
+                                        
+                                <div className="bubble">
+                                        <div className="bubble-heading-wrapper">
+                                            <span className="bubble-heading subtitle">Amenities</span>
+                                        </div>
+                                        <ul className="details">
+  {apartmentspost[0].amenities.map((item, index) => (
+    <li key={index}>{item}</li> 
+  ))}
+</ul>
+                                        </div>
+
+
+
+
+                                <div className="bubble">
+                                        <div className="bubble-heading-wrapper">
+                                            <span className="bubble-heading subtitle">Utilities</span>
+                                        </div>
+                                        <p>{apartmentspost[0].text}</p>
+<ul className="details">
+  {apartmentspost[0].utilities.map((item, index) => (
+    <li key={index}>{item}</li>
+  ))}
+</ul>
+                                        </div>
+
+
+                                        <div className="price">
+  <div className="price-amount">${apartmentspost[0].price}</div>
+  <div className="price-period">{apartmentspost[0].period}</div>
+</div>
+
+
+
                                     </div>
                                 </div>
                             </div>
-                        ))}
+                        ) : (
+                            apartmentspost.map((item, i) => (
+                                <div key={i} className="col-lg-6 col-md-6">
+                                    <div className="apartment-box">
+                                        <div className="image-box">
+                                            {i === 0 ? (
+                                                <Link to={`/apartment-details/${i + 1}`} className="d-block">
+                                                    <img src={item.img} alt="img" />
+                                                </Link>
+                                            ) : (
+                                                <img src={item.img} alt="img" />
+                                            )}
+                                        </div>
+                                        <div className="content-box-2">
+                                            <h3 className="title">
+                                                <span>{item.title}</span>
+                                            </h3>
+                                            <p>{item.text}</p>
+                                            <p className="utilities">{item.utilities}</p>
+                                            <span className="price">${item.price}/{item.period}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))
+                        )}
                     </div>
                 </div>
             </section>

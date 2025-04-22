@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
-import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl';
+import intantPhoto3 from '../../../assets/img/team/contactme-photoart-compressed.png';  
 
 class Content extends Component {
     render() {
-        const Map = ReactMapboxGl({
-            accessToken:
-                'pk.eyJ1IjoiYWJlZHNoIiwiYSI6ImNrNnRyZ3d4aDAyMzkzZXBoc3RsYnM0aGwifQ.yhr3W_OOI6xXElmSY8cyPg'
-        });
+       
         return (
             <section className="contact-part pt-115 pb-115">
                 <div className="container">
@@ -20,7 +17,12 @@ class Content extends Component {
                                     </div>
                                     <div className="desc">
                                         <h4>Office Address</h4>
-                                        <p>19/A, Cirikon City hall Tower New York, NYC</p>
+                                        <p>4th Ave @ 9th Street
+                                        <br />
+                                        Park Slope, Brooklyn
+                                            <br/>
+                                            Near the R, F & G Lines
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -31,7 +33,11 @@ class Content extends Component {
                                     </div>
                                     <div className="desc">
                                         <h4>Phone Number</h4>
-                                        <p>+ 97656 8675 7864 7 <br /> + 876 766 8675 765 6</p>
+                                        <p><a href="tel:+19294897158">929-489-7158</a></p>
+                                        <br/>
+                                        <br/>
+                                       
+
                                     </div>
                                 </div>
                             </div>
@@ -42,62 +48,22 @@ class Content extends Component {
                                     </div>
                                     <div className="desc">
                                         <h4>Email Address</h4>
-                                        <p>info@webmail.com <br /> jobs.webmail@mail.com</p>
+                                        <p>info@webmail.com</p>
+                                        <br/>
+                                        <br/>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {/* Contact Mapts */}
-                    <Map
-                        style="mapbox://styles/mapbox/light-v10"
-                        className="contact-maps mb-30"
-                    >
-                        <Layer type="symbol" id="marker" layout={{ 'icon-image': 'marker-15' }}>
-                            <Feature coordinates={[-77.04, 38.907]} zoom={11} />
-                        </Layer>
-                    </Map>
-                    {/* Contact Form */}
-                    <div className="contact-form">
-                        <form action="#">
-                            <div className="row">
-                                <div className="col-md-6">
-                                    <div className="input-group mb-30">
-                                        <span className="icon"><i className="far fa-user" /></span>
-                                        <input type="text" placeholder="Your full name" />
-                                    </div>
-                                </div>
-                                <div className="col-md-6">
-                                    <div className="input-group mb-30">
-                                        <span className="icon"><i className="far fa-envelope" /></span>
-                                        <input type="email" placeholder="Enter email address" />
-                                    </div>
-                                </div>
-                                <div className="col-md-6">
-                                    <div className="input-group mb-30">
-                                        <span className="icon"><i className="far fa-phone" /></span>
-                                        <input type="text" placeholder="Add phone number" />
-                                    </div>
-                                </div>
-                                <div className="col-md-6">
-                                    <div className="input-group mb-30">
-                                        <span className="icon"><i className="far fa-book" /></span>
-                                        <input type="text" placeholder="Select Subject" />
-                                    </div>
-                                </div>
-                                <div className="col-12">
-                                    <div className="input-group textarea mb-30">
-                                        <span className="icon"><i className="far fa-pen" /></span>
-                                        <textarea placeholder="Enter messages" defaultValue={""} />
-                                    </div>
-                                </div>
-                                <div className="col-12 text-center">
-                                    <button type="submit" className="main-btn btn-filled">Get Free Quote</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                   
+                   
+                    
                 </div>
+
+                <div className="photo-container">
+  <img  src={intantPhoto3} alt="Made to Enjoy" className="instant-photo-img"/>
+</div>
             </section>
         );
     }

@@ -31,7 +31,7 @@ const navigationmenu = [
     },
     {
         id: 2,
-        linkText: 'Apartments',
+        linkText: 'Apartment',
         child: true,
         submenu: [
             {
@@ -42,93 +42,44 @@ const navigationmenu = [
 
 
             {
-                id: 21,
+                id: 22,
                 link: '/gallery',
                 linkText: 'Gallery'
             },
-            // {
-            //     id: 22,
-            //     link: '/trending',
-            //     linkText: 'Apartments List 2'
-            // },
-            // {
-            //     id: 23,
-            //     link: '/apartment-grid',
-            //     linkText: 'Apartments Grid'
-            // },
-            // {
-            //     id: 24,
-            //     link: '/apartment-list',
-            //     linkText: 'Apartments List'
-            // },
+           
         ]
     },
-    // {
-    //     id: 3,
-    //     linkText: 'News',
-    //     child: true,
-    //     submenu: [
-    //         {
-    //             id: 31,
-    //             link: '/news',
-    //             linkText: 'News'
-    //         },
-    //         {
-    //             id: 32,
-    //             link: '/news-details',
-    //             linkText: 'News Details'
-    //         },
-    //     ]
-    // },
     {
-        id: 4,
-        linkText: 'Details',
+        id: 3,
+        linkText: 'About',
         child: true,
         submenu: [
-            // {
-            //     id: 41,
-            //     child: true,
-            //     linkText: 'Places',
-            //     submenu: [
-            //         {
-            //             id: 411,
-            //             link: '/places',
-            //             linkText: 'Places Near By'
-            //         },
-            //         {
-            //             id: 412,
-            //             link: '/places-details',
-            //             linkText: 'Places Details'
-            //         },
-            //     ]
-            // },
-            // {
-            //     id: 42,
-            //     link: '/classification',
-            //     linkText: 'Classification'
-            // },
-            
-            // {
-            //     id: 44,
-            //     link: '/contact',
-            //     linkText: 'Contact Us'
-            // },
             {
-                id: 45,
+                id: 31,
                 link: '/about',
-                linkText: 'About Us'
+                linkText: 'The Vision'
             },
+            {
+                id: 32,
+                 link: '/aboutme',
+                linkText: 'The Why'
+            },
+        ]
+    },
 
-            // {
-            //     id: 43,
-            //     link: '/gallery',
-            //     linkText: 'Our Gallery'
-            // },
-            // {
-            //     id: 46,
-            //     link: '/broker',
-            //     linkText: 'Brokers'
-            // },
+    {
+        id: 4,
+        linkText: 'Contact',
+        child: true,
+        submenu: [
+          
+            {
+                id: 41,
+                link: '/contact',
+                linkText: 'contact Us',
+                
+            }
+
         ]
     },
 ]
@@ -285,15 +236,15 @@ class Headerinner extends Component {
                                     <div className="item">
                                         <i className="fal fa-phone" />
                                         <span>Phone Number</span>
-                                        <a href="tel:+13474439267"  style={{ fontFamily: "'Old Standard TT', serif" }} ><h5>(347)-443-9267</h5></a>
-                                        {/* <Link to="tel:+90898787709">
-                                            <h5 className="title">+908 987 877 09</h5>
+                                        <a href="tel:+19294897158"  style={{ fontFamily: "'Old Standard TT', serif" }} ><h5>929-489-7158</h5></a>
+                                        {/* <Link to="tel:+19294897158">
+                                            <h5 className="title">(929)-489-7158</h5>
                                         </Link> */}
                                     </div>
                                     <div className="item">
                                         <i className="fal fa-envelope" />
                                         <span>Email Address</span>
-                                        <a href="mailto:info@previewurbanfoxrentals.com"><h5>info@previewurbanfoxrentals.com</h5></a>
+                                        <a href="mailto:info@urbanfoxrentals.com"><h5>info@urbanfoxrentals.com</h5></a>
                                     </div>
                                 </div>
                             </div>
