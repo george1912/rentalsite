@@ -25,8 +25,8 @@ const apartmentspost = [
         ],
         utilities: [
             'High-Speed Internet & Water Included',
-            'Usage-Based Electric & Gas',
-            'Complimentary VPN Service',
+            'Complimentary 3-Month VPN Service',
+            'Electric & Gas: Pay-as-You-Go for Maximum Savings',
         ],
         price: '3900',
         period: 'Flexible Monthly Lease',

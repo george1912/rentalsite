@@ -38,7 +38,7 @@ class Aboutme extends Component {
                         
                        <p>This work matters to me because I know how much stability, clarity, and peace the right space can offer—especially when you're chasing something bigger. I created Urban Fox to give people that foundation, so they can focus on what really&nbsp;matters.</p>
                        <br/>
-                       <div className="photo-container">
+                       <div className="photo-container-aboutme">
   <img  src={transparentlogo} alt="Urban Fox Logo" className="instant-photo-aboutme-logo"/>
 </div>
 
