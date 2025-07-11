@@ -62,7 +62,56 @@ class Video extends Component {
 </Link>
 </div>
 
+<div className="button-stack" style={{ marginTop: '2rem' }}>
+  
+<Link
+  style={{
+    display: 'block',
+    margin: '0 auto 1rem auto',
+    maxWidth: '250px',
+    width: '100%',
+    textAlign: 'center',
+  }}
+  to="#"
+  onClick={(e) => {
+    e.preventDefault();
+    window.open(
+      'https://calendly.com/urbanfoxrentals/quick-intro-call-urban-fox-rentals',
+      '_blank',
+      'noopener,noreferrer'
+    );
+  }}
+  className="main-btn btn-filled"
+>
+Schedule Intro
+</Link>
+</div>
 
+
+<div className="button-stack" style={{ marginTop: '2rem' }}>
+  
+<Link
+  style={{
+    display: 'block',
+    margin: '0 auto 1rem auto',
+    maxWidth: '250px',
+    width: '100%',
+    textAlign: 'center',
+  }}
+  to="#"
+  onClick={(e) => {
+    e.preventDefault();
+    window.open(
+      'https://calendly.com/urbanfoxrentals/live-virtual-tour-urban-fox-rentals',
+      '_blank',
+      'noopener,noreferrer'
+    );
+  }}
+  className="main-btn btn-filled"
+>
+Book Tour
+</Link>
+</div>
 
 
 
