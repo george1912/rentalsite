@@ -33,7 +33,7 @@ class Content extends Component {
                                 Welcome to <strong>"The Livewell on 9th Street"</strong> your move-in-ready home in the heart of Park Slope. This light-filled,apartment offers a rare combination of flexibility, comfort, and curated design — perfect for professionals, students, couples, or anyone looking for more than just a place to stay
                                 <br />
                                 <br />
-                                The layout includes three bedrooms and one bathroom, with the option to fully furnish your space with high-quality pieces — from smart TVs and dining essentials to work-from-home setups and cozy sleeping arrangements. Whether you're staying a few months or longer, this apartment is designed to support your routine, your comfort, and your lifestyle.
+                            This one-bedroom, one-bathroom apartment comes fully furnished with everything you need to feel at home — from sleek smart TVs and dining essentials to a dedicated work-from-home setup and a cozy bedroom retreat. Designed for both comfort and convenience, the space supports your lifestyle whether you're here for a few months or an extended stay.
                                 <br />
                                 <br />
                                 Located just off 4th Avenue and a block from the R/F/G trains, you'll have easy access to Prospect Park, local restaurants, groceries, and a 24-hour laundry facility — all within a few blocks. Month-to-month leasing makes it easier than ever to live flexibly, without the pressure of a long-term commitment.
