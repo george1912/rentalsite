@@ -11,6 +11,8 @@ const Aboutme = React.lazy(() => import("./components/pages/Aboutme"));
 const Apartmentdetails = React.lazy(() => import("./components/pages/Apartmentdetails"));
 const Gallery = React.lazy(() => import("./components/pages/Gallery"));
 const Contact = React.lazy(() => import("./components/pages/Contact"));
+const WasteAndRecycling = React.lazy(() => import("./components/pages/WasteAndRecycling"));
+const SanitationCalendar = React.lazy(() => import("./components/pages/SanitationCalendar"));
 const Notfound = React.lazy(() => import("./components/pages/Notfound"));
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
           <Route exact path="/apartment-details/:id?" component={Apartmentdetails} />
           <Route exact path="/gallery" component={Gallery} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/waste-and-recycling" component={WasteAndRecycling} />
+          <Route exact path="/sanitation-calendar" component={SanitationCalendar} />
           <Route component={Notfound} />
         </Switch>
       </Suspense>

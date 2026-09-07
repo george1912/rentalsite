@@ -9,7 +9,7 @@ class Breadcrumb extends Component {
             <div className="breadcrumb-area" style={{ backgroundImage: "url(" + breadcrumbbg + ")" }}>
                 <div className="container">
                     <div className="breadcrumb-text">
-                        <span>Intentional Living</span>
+                        <span>{this.props.breadcrumb.eyebrow || 'Intentional Living'}</span>
                         <h1 className="page-title">{this.props.breadcrumb.pagename}</h1>
                         <nav aria-label="Breadcrumb">
                             <ol className="breadcrumb-nav">
