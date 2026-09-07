@@ -89,12 +89,12 @@ class Content extends Component {
                                     <h4 id="blue-belongs">What belongs here</h4>
                                     <ul className="resident-guide-inline-key" aria-label="Blue bin examples">
                                         <li><i className="fal fa-wine-bottle" aria-hidden="true" /><span>Bottles and jars</span></li>
-                                        <li><i className="fal fa-recycle" aria-hidden="true" /><span>Cans and rigid plastics</span></li>
+                                        <li><i className="fal fa-recycle" aria-hidden="true" /><span>Soda and food cans</span></li>
                                         <li><i className="fal fa-box" aria-hidden="true" /><span>Cartons</span></li>
                                         <li><i className="fal fa-shopping-bag" aria-hidden="true" /><span>Clear or white bag</span></li>
                                     </ul>
                                     <ul>
-                                        <li>Metal food cans, empty aerosol cans, aluminum foil, and metal lids</li>
+                                        <li>Metal soda cans, food cans, empty aerosol cans, aluminum foil, and metal lids</li>
                                         <li>Glass bottles and jars only</li>
                                         <li>Rigid plastic bottles, jugs, tubs, cups, lids, and takeout containers</li>
                                         <li>Milk cartons, juice cartons, and drink boxes</li>
@@ -172,9 +172,9 @@ class Content extends Component {
                             <h2 id="quick-reference-heading">Quick Reference</h2>
                         </div>
                         <ol>
-                            <li><span>Paper and flattened cardboard go in a <strong>clear or white bag</strong> (green stream).</span></li>
-                            <li><span>Cans, bottles, jars, rigid plastics, and cartons go in a <strong>clear or white bag</strong> (blue stream), cleaned to the best of your ability.</span></li>
-                            <li><span>Food scraps and everything else go in trash (black stream), bags tied and not overstuffed.</span></li>
+                            <li><span>Paper and flattened cardboard go in a <strong>clear or white bag</strong>.</span></li>
+                            <li><span>Soda cans, other metal cans, bottles, jars, rigid plastics, and cartons go in a <strong>clear or white bag</strong>, cleaned to the best of your ability.</span></li>
+                            <li><span>Food scraps and everything else go in black trash bags, tied and not overstuffed.</span></li>
                             <li><span>Large items: ask your landlord first.</span></li>
                         </ol>
                         <p>Clear bags, closed bags, and a quick sort go a long way toward a cleaner building for everyone.</p>
