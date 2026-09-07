@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import $ from 'jquery';
 
 
 import intantPhoto1 from '../../../assets/img/team/made-to-focus-photoart-compressed.jpg'; 
@@ -10,9 +8,6 @@ import transparentlogo from '../../../assets/img/team/transparent-logo.png';
 
 
 class About extends Component {
-    componentDidMount() {
-        
-    }
     render() {
         return (
             <section className="about-section pt-115 pb-115">

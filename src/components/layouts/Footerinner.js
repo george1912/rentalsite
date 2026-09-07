@@ -1,8 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { Link } from 'react-router-dom';
 import Backtotop from './Backtotop';
-
-import logo from '../../assets/img/logo-2.png';
 
 class Footerinner extends Component {
     render() {
@@ -36,7 +33,7 @@ class Footerinner extends Component {
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-md-5 order-2 order-md-1">
-                                    <p className="copyright-text">&copy; 2025 BigLittleAdventures. <br/>All rights reserved.</p>
+                                    <p className="copyright-text">&copy; {new Date().getFullYear()} BigLittleAdventures. <br/>All rights reserved.</p>
                                 </div>
                                 {/* <div className="col-md-7 order-1 order-md-2">
                                     <div className="social-links">

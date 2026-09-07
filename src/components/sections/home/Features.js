@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 class Features extends Component {
     render() {
@@ -31,7 +30,7 @@ class Features extends Component {
                                 </div>
                                 <h3>Focus Mode</h3>
                                 <p>
-                                A calm, capable space made for deep work. Supported by built-in quiet, smart layout, and features designed  — built for when your brain's on overdrive.
+                                A calm, capable space made for deep work, with built-in quiet, a smart layout, and features designed for when your brain is on overdrive.
           </p>
                                 {/* <span className="count">02</span> */}
                             </div>
@@ -43,7 +42,7 @@ class Features extends Component {
                                 </div>
                                 <h3>Everyday Access</h3>
                                 <p>
-                                Just off 4th Avenue-9th Street ßStation, this address puts you near Prospect Park, with groceries, errands, and hospitals all within easy reach.
+                                Just off the 4th Avenue–9th Street station, this address puts you near Prospect Park, with groceries, errands, and hospitals all within easy reach.
           </p>
                                 {/* <span className="count">03</span> */}
                             </div>
@@ -78,7 +77,7 @@ class Features extends Component {
                                 <div className="icon">
                                     <i className="flaticon-discount" />
                                 </div>
-                                <h3><Link to="#">Resident Care</Link></h3>
+                                <h3>Resident Care</h3>
                                 <p>
                                 Support includes cleaning referrals, fast response times, and continuous care designed around real resident needs.
           </p>

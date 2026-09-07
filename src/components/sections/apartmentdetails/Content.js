@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-
-
 import mainimg from '../../../assets/img/room/apartment-bedroom-details-color.jpg';
 
 
@@ -27,49 +24,37 @@ class Content extends Component {
                                     </div>
                                 </div>
                                 <div className="thumb">
-                                    <img src={mainimg} alt="" />
+                                    <img src={mainimg} alt="Furnished bedroom in the Livewell on 9th Street apartment" />
                                 </div>
-                                <p style={{ color: '#3c4c5e' }}>
-                                Welcome to <strong>"The Livewell on 9th Street"</strong> your move-in-ready home in the heart of Park Slope. This light-filled, apartment offers a rare combination of flexibility, comfort, and curated design — perfect for professionals, students, couples, or anyone looking for more than just a place to stay
-                                <br />
-                                <br />
-                            This one-bedroom, one-bathroom apartment comes fully furnished with everything you need to feel at home — from sleek smart TVs and dining essentials to a dedicated work-from-home setup and a cozy bedroom retreat. Designed for both comfort and convenience, the space supports your lifestyle whether you're here for a few months or an extended stay.
-                                <br />
-                                <br />
-                                Located just off 4th Avenue and a block from the R/F/G trains, you'll have easy access to Prospect Park, local restaurants, groceries, and a 24-hour laundry facility — all within a few blocks. Month-to-month leasing makes it easier than ever to live flexibly, without the pressure of a long-term commitment.
-                                <br />
-                                <br />
-                                Make yourself at home — and make it yours.
-                                <br />
-                                <br />
-                                <strong>  Utilities:</strong>
-                                <br />
-                                <ul>
-  <li>High-speed internet (with guest SSID access) and Water are included</li>
-  <li>Water included</li>
-  <li><em>*Electricity and cooking gas are billed based on usage for added flexibility*</em></li>
-</ul>
-                                
-                                <br />
-                                <br />
-                                Seize the opportunity to make this exceptional Park Slope apartment your own. 
-                                
-                   
-                                <br />
-                                Contact us to schedule a viewing today and begin your next adventure in one of Brooklyn's most sought-after neighborhoods!
-                                <br />
-                                <br />
-
-
-          </p>
+                                <div className="room-description" style={{ color: '#3c4c5e' }}>
+                                    <p>
+                                        Welcome to <strong>The Livewell on 9th Street</strong>, your move-in-ready home in the heart of Park Slope. This light-filled apartment offers a rare combination of flexibility, comfort, and curated design—perfect for professionals, students, couples, or anyone looking for more than just a place to stay.
+                                    </p>
+                                    <p>
+                                        This one-bedroom, one-bathroom apartment comes fully furnished with everything you need to feel at home—from smart TVs and dining essentials to a dedicated work-from-home setup and a cozy bedroom retreat. Designed for comfort and convenience, the space supports your lifestyle whether you're here for a few months or an extended stay.
+                                    </p>
+                                    <p>
+                                        Located just off 4th Avenue and a block from the R, F, and G trains, you'll have easy access to Prospect Park, local restaurants, groceries, and a 24-hour laundry facility—all within a few blocks. Month-to-month leasing makes it easier to live flexibly without the pressure of a long-term commitment.
+                                    </p>
+                                    <p>Make yourself at home—and make it yours.</p>
+                                    <h3 className="subtitle utilities-heading">Utilities</h3>
+                                    <ul className="details utilities-list">
+                                        <li>High-speed internet, including guest Wi-Fi access</li>
+                                        <li>Water</li>
+                                        <li>Electricity and cooking gas billed based on usage</li>
+                                    </ul>
+                                    <p>
+                                        Seize the opportunity to make this exceptional Park Slope apartment your own. Contact us to schedule a viewing and begin your next adventure in one of Brooklyn's most sought-after neighborhoods.
+                                    </p>
+                                </div>
                               
           
                                 
                                 <div className="room-rules clearfix mb-60">
-                                    <h3 className="subtitle">Stay Guidlines</h3>
+                                    <h3 className="subtitle">Stay Guidelines</h3>
                                     <ul className="room-rules-list">
                                         <li>No smoking allowed.</li>
-                                        <li>Pets approved case-by-case</li>                                        
+                                        <li>Pets approved on a case-by-case basis.</li>
 
                                     </ul>
                                 </div>

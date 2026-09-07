@@ -1,3 +1,4 @@
+/* eslint-disable react/style-prop-object */
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl';
@@ -22,8 +23,7 @@ const placeposts = [
 class Content extends Component {
     render() {
         const Map = ReactMapboxGl({
-            accessToken:
-                'pk.eyJ1IjoiYWJlZHNoIiwiYSI6ImNrNnRyZ3d4aDAyMzkzZXBoc3RsYnM0aGwifQ.yhr3W_OOI6xXElmSY8cyPg'
+            accessToken: process.env.REACT_APP_MAPBOX_ACCESS_TOKEN || ''
         });
         return (
             <section className="places-wrapper pt-120 pb-120">

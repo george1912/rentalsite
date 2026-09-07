@@ -10,15 +10,17 @@ class Aboutme extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                <title>Urban Fox Rentals | Home</title>
+                <title>Our Story | Urban Fox Rentals</title>
                     <meta
                         name="description"
                         content="Discover the story behind Urban Fox Rentals."
                     />
                 </MetaTags>
                 <Header/>
-                <Breadcrumb breadcrumb={{pagename:'Why'}} />
-                <Content/>
+                <main id="main-content" tabIndex="-1">
+                    <Breadcrumb breadcrumb={{pagename:'Our Story'}} />
+                    <Content/>
+                </main>
                 <Footer/>
             </Fragment>
         );

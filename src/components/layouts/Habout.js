@@ -27,7 +27,7 @@ class Habout extends Component {
                                         </div>
                                         <h4>Effortless Luxury</h4>
                                         <p>
-                                        Where timeless design meets elevated living. Enjoy curated interiors, sleek finishes, and modern conveniences and amenities—in a space that's as practical as it is beautiful.
+                                        Where timeless design meets elevated living. Enjoy curated interiors, sleek finishes, and modern amenities in a space that's as practical as it is beautiful.
               </p>
                                     </div>
                                 </div>
@@ -61,7 +61,7 @@ class Habout extends Component {
                                 <p>
                                 Welcome to a curated spacious apartment in the heart of Park Slope—fully furnished, beautifully lit, and crafted with intention. Every detail is considered, every convenience included. From modern amenities to flexible leasing, this is Brooklyn living without compromise.
           </p>
-                                <Link to="gallery" className="main-btn btn-filled mt-40"> Take A Look</Link>
+                                <Link to="/gallery" className="main-btn btn-filled mt-40">Take a Look</Link>
                             </div>
                         </div>
                     </div>

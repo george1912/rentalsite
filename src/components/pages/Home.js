@@ -16,7 +16,9 @@ class Home extends Component {
                     />
                 </MetaTags>
                 <Header/>
-                <Content/>
+                <main id="main-content" tabIndex="-1">
+                    <Content/>
+                </main>
                 <Footer/>
             </Fragment>
         );

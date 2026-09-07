@@ -9,10 +9,14 @@ class Preloader extends Component {
     }
     
     componentDidMount() {
-        setTimeout(() => {
+        this.hideTimer = setTimeout(() => {
           this.setState({ fetchSuccess: true });
         }, 100); // or 300ms if you want it to animate
-      }
+    }
+
+    componentWillUnmount() {
+        clearTimeout(this.hideTimer);
+    }
 
     render() {
         const classNamess = this.state.fetchSuccess ? 'd-none' : '';

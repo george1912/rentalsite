@@ -48,7 +48,7 @@ class Content extends Component {
                                     </div>
                                     <div className="desc">
                                         <h4>Email Address</h4>
-                                        <p>info@urbanfoxrentals.com</p>
+                                        <p><a href="mailto:info@urbanfoxrentals.com">info@urbanfoxrentals.com</a></p>
                                         <br/>
                                         <br/>
                                     </div>

@@ -188,7 +188,6 @@ class Headerthree extends Component {
     }
     render() {
         const className = this.state.isMobile ? 'breakpoint-on' : '';
-        const classNamess = this.state.isMobile ? 'd-none' : '';
         return (
             <Fragment>
                 <header className="header-three">

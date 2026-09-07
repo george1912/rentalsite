@@ -10,15 +10,17 @@ class Gallery extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                <title>Urban Fox Rentals | Home</title>
+                <title>Apartment Gallery | Urban Fox Rentals</title>
                     <meta
                         name="description"
                         content="Discover modern apartments in Brooklyn with Urban Fox Rentals. See our curated listings of stylish apartments and find your perfect home in Brooklyn today."
                     />
                 </MetaTags>
                 <Header/>
-                <Breadcrumb breadcrumb={{pagename:'Gallery'}} />
-                <Content/>
+                <main id="main-content" tabIndex="-1">
+                    <Breadcrumb breadcrumb={{pagename:'Apartment Gallery'}} />
+                    <Content/>
+                </main>
                 <Footer/>
             </Fragment>
         );

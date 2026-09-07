@@ -1,18 +1,8 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import $ from 'jquery';
-
-
-import intantPhoto1 from '../../../assets/img/team/made-to-focus-photoart-compressed.jpg'; 
-import intantPhoto2 from '../../../assets/img/team/made-to-rest-photoart-compressed.jpg';  
-import intantPhoto3 from '../../../assets/img/team/made-to-enjoy-photoart-compressed.jpg';  
-import transparentlogo from '../../../assets/img/team/about-me-colorized-photo.png';  
+import transparentlogo from '../../../assets/img/team/about-me-colorized-photo.png';
 
 
 class Aboutme extends Component {
-    componentDidMount() {
-        
-    }
     render() {
         return (
             <section className="about-section pt-115 pb-115">
@@ -25,7 +15,7 @@ class Aboutme extends Component {
                         <h2>Made with Purpose</h2>
                         <br />
                         
-                        <p><strong>Urban Fox Rentals</strong>, started with a simple idea: make moving easier for people who already have enough on their plates. I saw firsthand how much time, energy, and money goes into finding a good place to live—especially for working professionals, students, and healthcare workers. I wanted to create something&nbsp;better.</p>
+                        <p><strong>Urban Fox Rentals</strong>, started with a simple idea: make moving easier for people who already have enough on their plates. I saw firsthand how much time, energy, and money goes into finding a good place to live, especially for working professionals, students, and healthcare workers. I wanted to create something&nbsp;better.</p>
                         
                         
 

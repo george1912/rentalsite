@@ -1,16 +1,10 @@
 import React, { Component, Fragment } from 'react';
-import { Link } from 'react-router-dom';
 import Backtotop from './Backtotop';
-import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl';
 
 import logo from '../../assets/img/header-logo-no-border.png';
 
 class Footer extends Component {
     render() {
-        // const Map = ReactMapboxGl({
-        //     accessToken:
-        //         'pk.eyJ1IjoiYWJlZHNoIiwiYSI6ImNrNnRyZ3d4aDAyMzkzZXBoc3RsYnM0aGwifQ.yhr3W_OOI6xXElmSY8cyPg'
-        // });
         return (
             <Fragment>
                 <Backtotop />
@@ -58,7 +52,7 @@ class Footer extends Component {
                                     {/* Site Info Widget */}
                                     <div className="widget site-info-widget mb-50">
                                         <div className="footer-logo mb-50">
-                                            <img src={logo} alt="" />
+                                            <img src={logo} alt="Urban Fox Rentals" />
                                         </div>
                                         <p>
                                         Urban Fox Rentals offers effortlessly manageable living spaces, designed for modern convenience and ease. Perfect for the urban dweller.
@@ -120,7 +114,7 @@ class Footer extends Component {
                                                 </div>
                                                 <div className="desc">
                                                     <h6 className="title">Office Address</h6>
-                  Parkslope, Brooklyn
+                  Park Slope, Brooklyn
                 </div>
                                             </div>
                                         </div>
@@ -134,7 +128,7 @@ class Footer extends Component {
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-5 order-2 order-md-1">
                                     {/* <p className="copyright-text copyright-two">Copyright By@<Link to="#">Example</Link> - 2020</p> */}
-                                    <p className="copyright-text copyright-two">&copy; 2025 BigLittleAdventures. <br/>All rights reserved.</p>
+                                    <p className="copyright-text copyright-two">&copy; {new Date().getFullYear()} BigLittleAdventures. <br/>All rights reserved.</p>
                                 </div>
                                 {/* <div className="col-lg-6 col-md-7 order-1 order-md-2">
                                     <div className="footer-menu text-center text-md-right">

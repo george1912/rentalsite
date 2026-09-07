@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import {BrowserRouter} from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 // Css
@@ -17,9 +16,7 @@ import './assets/css/default.css';
 import './assets/css/style.css';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+  <App />,
   document.getElementById('nycondos')
 );
 

@@ -17,8 +17,10 @@ class Apartmentdetails extends Component {
                     />
                 </MetaTags>
                 <Header/>
-                <Breadcrumb breadcrumb={{pagename:'Apartment Details'}} />
-                <Content/>
+                <main id="main-content" tabIndex="-1">
+                    <Breadcrumb breadcrumb={{pagename:'Apartment Details'}} />
+                    <Content/>
+                </main>
                 <Footer/>
             </Fragment>
         );

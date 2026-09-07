@@ -13,8 +13,8 @@ const apartmentspost = [
 
         furnishings: [
             'Queen Bed with Fresh Linens Provided',
-            'Comfortable Premade Room Setups',
-            'Fully Outfitted Kitchen stocked with all the Essentials',
+            'Comfortable, Ready-to-Use Rooms',
+            'Fully Outfitted Kitchen Stocked with Essentials',
         ],
         amenities: [
             'In-unit Washer & Dryer',
@@ -49,8 +49,8 @@ class Facilities extends Component {
                                 <div className="apartment-box">
                                     <div className="image-box">
                                         <Link to={`/apartment-details/1`} className="d-block">
-                                            <img src={apartmentspost[0].img} alt="img" />
-                                            <div className="image-overlay">View Gallery</div>
+                                            <img src={apartmentspost[0].img} alt="Furnished living room in the Livewell Suite" />
+                                            <div className="image-overlay">View Apartment</div>
                                         </Link>
                                     </div>
                                     <div className="content-box-2">
@@ -129,10 +129,10 @@ class Facilities extends Component {
                                         <div className="image-box">
                                             {i === 0 ? (
                                                 <Link to={`/apartment-details/${i + 1}`} className="d-block">
-                                                    <img src={item.img} alt="img" />
+                                                    <img src={item.img} alt={`Furnished interior of ${item.title}`} />
                                                 </Link>
                                             ) : (
-                                                <img src={item.img} alt="img" />
+                                                <img src={item.img} alt={`Furnished interior of ${item.title}`} />
                                             )}
                                         </div>
                                         <div className="content-box-2">
